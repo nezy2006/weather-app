@@ -1,0 +1,22 @@
+# API Keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# OS files
+.DS_Store
+
+# Deployment scripts (protect server IPs)
+deploy.sh
+deploy.ps1
+start_all.ps1
+start_all.bat
+
+# Server configs
+nginx-web-server.conf
+nginx-load-balancer.conf
