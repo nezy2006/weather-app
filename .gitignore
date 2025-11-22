@@ -1,22 +1,17 @@
-# API Keys
+config.js
 .env
-
-# Python
-__pycache__/
-*.pyc
-
-# Node
-node_modules/
-
-# OS files
-.DS_Store
-
-# Deployment scripts (protect server IPs)
-deploy.sh
+server1.py
+server2.py
+load_balancer.py
 deploy.ps1
+deploy.sh
 start_all.ps1
 start_all.bat
-
-# Server configs
 nginx-web-server.conf
 nginx-load-balancer.conf
+__pycache__/
+*.pyc
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
